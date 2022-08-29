@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
+    
 }
 
 /* classe per regolare il pattern nell'header */
@@ -81,6 +81,7 @@ td {
 /* /table */
 
 /* footer */
+
 #footer-titolo h3{
     margin-left: 10px;
     margin-top: 10px;
@@ -93,7 +94,7 @@ td {
     width: 300px;
     background-image: url(../img/monitor.jpg);
 }
-#footer-foto1 h2{
+#footer-foto1 h1{
     padding-top: 10px;
     margin-left: 10px;
     margin-top: 10px;
@@ -106,7 +107,7 @@ td {
     width: 300px;
     background-image: url(../img/graph.jpg);
 }
-#footer-foto2 h2{
+#footer-foto2 h1{
     padding-top: 10px;
     margin-left: 10px;
     margin-top: 10px;
