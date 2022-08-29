@@ -37,7 +37,14 @@
 #titolo h1{
      font-size: 50px;   
 }
-#titolo h2 , h3 , h4{
+#titolo h2 ,#titolo h4{
     color: grey;
 }
 /* fine titolo */
+
+/* sezione foto */
+#foto-centro{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* fine sezione foto */
