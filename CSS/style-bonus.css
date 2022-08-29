@@ -1,5 +1,6 @@
 *{
-   
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
     
 }
@@ -20,15 +21,15 @@
 #logo{
   width: 200px;
   height: 200px;
-  margin-left: 20px;
+  margin-left: 10%;
   padding-bottom: 4%;
 }
 /* fine id */
 
 /* titolo iniziale */
 #titolo{
-    margin-left: 10px;
-    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #titolo a{
     color: blue;
@@ -44,21 +45,21 @@
 
 /* sezione foto */
 #foto-centro{
-    margin-left: 10px;
-    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 /* fine sezione foto */
 
 /* evidenziatore */
 .hightlights{
- background-color: yellow;    
+ background-color: lightseagreen;    
 }
 
 
 /* sezione paragrafi */
 #paragrafi{
-    margin-left: 10px;
-    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size:large;
     }
 #paragrafi ul{
@@ -71,45 +72,45 @@ td {
 }
 #t-body {
     height: 5px;
-    background-color: rgba(177,229,242,1);
+    background-color: rgb(18, 201, 116);
     }
 #t-head{
     height: 5px;
     color: white;
-    background-color: rgba(32,169,229,1);
+    background-color: rgb(86, 138, 109);
 }
 /* /table */
 
 /* footer */
 
 #footer-titolo h3{
-    margin-left: 10px;
-    margin-top: 10px;
-    color: gray;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: red;
 }
 #footer-foto1{
-    margin-left: 10px;
-    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 10%;
     height: 200px;
     width: 300px;
     background-image: url(../img/monitor.jpg);
 }
-#footer-foto1 h1{
-    padding-top: 10px;
-    margin-left: 10px;
+#footer-foto1 h2{
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 10px;
     color: white;
 }
 #footer-foto2{
-    margin-left: 10px;
-    margin-top: 10px;
+   
+    margin-left: 10%;
     height: 200px;
     width: 300px;
-    background-image: url(../img/graph.jpg);
+    background-image: url(../img/graph.jpg) ;
 }
-#footer-foto2 h1{
-    padding-top: 10px;
-    margin-left: 10px;
+#footer-foto2 h2{
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 10px;
     color: white;
 }
