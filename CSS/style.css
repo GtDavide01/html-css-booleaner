@@ -49,9 +49,33 @@
 }
 /* fine sezione foto */
 
+/* evidenziatore */
+.hightlights{
+ background-color: yellow;    
+}
+
+
 /* sezione paragrafi */
 #paragrafi{
     margin-left: 10px;
     margin-top: 10px;
     font-size:large;
     }
+#paragrafi ul{
+    padding-left: 20px;
+}
+
+/* table */
+td {
+    padding: 30px;
+}
+#t-body {
+    height: 5px;
+    background-color: rgba(177,229,242,1);
+    }
+#t-head{
+    height: 5px;
+    color: white;
+    background-color: rgba(32,169,229,1);
+}
+/* /table */
