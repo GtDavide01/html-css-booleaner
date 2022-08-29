@@ -4,19 +4,40 @@
     box-sizing: border-box;
 }
 
-
+/* classe per regolare il pattern nell'header */
 .pattern-alto{
     background-color: rgba(78, 160, 255, 1);
     height: 100px;
     width: 100%;
-    background-image: url(../img/pattern.png);
-    background-size: 21%;
+    background-image: url(../img/pattern.png) ;
+    background-position: top;
+    background-size: 400px;
 }
-  
+/* fine classe  */
 
+
+/* id per regolare logo all'interno del pattern */
 #logo{
   width: 200px;
   height: 200px;
   margin-left: 20px;
   padding-bottom: 4%;
 }
+/* fine id */
+
+/* titolo iniziale */
+#titolo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#titolo a{
+    color: blue;
+    text-decoration: none;
+}
+#titolo h1{
+     font-size: 50px;   
+}
+#titolo h2 , h3 , h4{
+    color: grey;
+}
+/* fine titolo */
