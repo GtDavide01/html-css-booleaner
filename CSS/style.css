@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pattern-alto{
+    background-color: rgba(78, 160, 255, 1);
+    height: 100px;
+    width: 100%;
+    background-image: url(../img/pattern.png);
+    background-size: 21%;
+}
+  
+
+#logo{
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  padding-bottom: 4%;
+}
