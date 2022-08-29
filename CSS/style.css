@@ -67,7 +67,7 @@
 
 /* table */
 td {
-    padding: 30px;
+    padding: 15px;
 }
 #t-body {
     height: 5px;
@@ -79,3 +79,37 @@ td {
     background-color: rgba(32,169,229,1);
 }
 /* /table */
+
+/* footer */
+#footer-titolo h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+#footer-foto1{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    background-image: url(../img/monitor.jpg);
+}
+#footer-foto1 h1{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+#footer-foto2{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    background-image: url(../img/graph.jpg);
+}
+#footer-foto2 h1{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+/* /footer */
